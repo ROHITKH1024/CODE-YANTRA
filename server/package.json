@@ -1,0 +1,21 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "chokidar": "^3.6.0",
+    "cors": "^2.8.5",
+    "express": "^4.21.1",
+    "node-pty": "^1.0.0",
+    "nodemon": "^3.1.0",
+    "os": "^0.1.2",
+    "socket.io": "^4.8.1"
+  }
+}
